@@ -69,10 +69,12 @@ a:focus{
 	position:relative;
    
 }
+
 .banner img {
        margin: 0 auto;
     text-align: center;
     border: 7px solid #44c7f4;
+    filter: grayscale(80%);
 }
 .banner h2 {
       font-size: 3em;
@@ -80,6 +82,7 @@ a:focus{
     margin: 0em 0;
     letter-spacing: 6px;
 }
+
 .banner span {
     color:#b06010;
 	letter-spacing:4px;
@@ -265,7 +268,7 @@ a:focus{
 }
 /*-- //banner --*/
 .banner1{
-	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	background: url(../images/header.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1712,9 +1715,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 .agileinfo_services_grids{
 	margin:5em 0 4em;
 }
-.agileinfo_services_grid:hover .agileinfo_services_grid1 h4:after,.agileinfo_services_grid:hover .agileinfo_services_grid1_pos{
-	    background: #b06010;
-}
+
 .agileinfo_services_grid:hover .agileinfo_services_grid1_pos span{
 	color: #fff;
 }
